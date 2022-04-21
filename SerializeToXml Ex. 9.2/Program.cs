@@ -1,16 +1,24 @@
-﻿try
-{
-    var locationFolder = @"C:\Users\Cristi-PC\Desktop\XmlFiles\";
+﻿using System.Text;
 
-    //SerializeListToXmlFile(locationFolder);
-    DeserializeXmlFileToList(locationFolder);
+try
+{
+    var locationFolder = @"C:\Users\Cristi-PC\Desktop\";
+    var fileName = "Shapes.xml";
+    var path = locationFolder + fileName;
+    if (!Directory.Exists(locationFolder))
+    {
+        Directory.CreateDirectory(locationFolder);
+    }
+
+    //SerializeListToXmlFile(path);
+    DeserializeXmlFileToList(path);
     
 }
 catch(Exception e)
 {
     WriteLine("Error: " + e.Message);
 }
-static void SerializeListToXmlFile(string path)
+static void SerializeListToXmlFile(string filePath)
 {
     List<Shape> listOfShapes = new ()
     {
@@ -21,27 +29,28 @@ static void SerializeListToXmlFile(string path)
         new Rectangle { Colour = "Blue", Height = 2.5, Width = 18.0 }
     };
     var xmlSerializer = new XmlSerializer(typeof(List<Shape>));
-    using (var writer = new StreamWriter(path+"Shapes.xml"))
+    using (var writer = new StreamWriter(filePath))
     {
         xmlSerializer.Serialize(writer, listOfShapes);
     }
 }
 
-static void DeserializeXmlFileToList(string path)
+static void DeserializeXmlFileToList(string filePath)
 {
     var xmlSerializer = new XmlSerializer(typeof(List<Shape>));
-    using (var reader = new StreamReader(path+"Shapes.xml"))
+    using (var reader = new StreamReader(filePath))
     {
         var members = (List<Shape>)xmlSerializer.Deserialize(reader)!;
-
+        
         foreach (var member in members)
         {
-            WriteLine(member.GetType());
-            WriteLine(member.Colour);
-            WriteLine(member.Radius);
-            WriteLine(member.Width);
-            WriteLine(member.Height);
-            WriteLine();
+            var builder = new StringBuilder();
+            builder.Append($"Type: {member.GetType().Name}");
+            builder.Append($", Colour: {member.Colour}");
+            builder.Append($", Area: {member.Area.ToString("F")}");
+            builder.Append(System.Environment.NewLine);
+
+            Console.WriteLine(builder.ToString());
         }
     }
 }

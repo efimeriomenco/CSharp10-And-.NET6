@@ -12,7 +12,7 @@ InitImmutablePerson pers1 = new InitImmutablePerson()
 };
 
 //Incorrect!
-//efim.FirstName = "Ion";
+//pers1.FirstName = "Ion";
 
 //----------------------------------------------------------------------------------------
 
@@ -25,10 +25,19 @@ RecordInitImmutableVehicle vehicle1 = new RecordInitImmutableVehicle()
     Color = "Blue Metallic",
     Wheels = 5
 };
+
+RecordInitImmutableVehicle vehicle2 = new RecordInitImmutableVehicle()
+{
+    Brand = "Bmw X5",
+    Color = "Blue Metallic",
+    Wheels = 5
+};
 WriteLine($"old color is: {vehicle1.Color}");
 RecordInitImmutableVehicle repaintedCar = vehicle1 
     with { Color = "Red Crystal"};
 WriteLine($"new color is: {repaintedCar.Color}");
+
+Console.WriteLine(vehicle1 == vehicle2);
 
 //----------------------------------------------------------------------------------------
 

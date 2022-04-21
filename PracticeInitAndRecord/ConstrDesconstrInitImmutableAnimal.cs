@@ -11,11 +11,10 @@
             Species = species;
         }
 
-        public void Deconstruct(out object name, out object species)
+        public void Deconstruct(out string name, out string species)
         {
             name = Name;
             species = Species;
         }
-
     }
 }

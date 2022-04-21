@@ -1,0 +1,15 @@
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\bin\Debug\net6.0\PracticeInitAndRecord.exe
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\bin\Debug\net6.0\PracticeInitAndRecord.deps.json
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\bin\Debug\net6.0\PracticeInitAndRecord.runtimeconfig.json
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\bin\Debug\net6.0\PracticeInitAndRecord.dll
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\bin\Debug\net6.0\PracticeInitAndRecord.pdb
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\obj\Debug\net6.0\PracticeInitAndRecord.csproj.AssemblyReference.cache
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\obj\Debug\net6.0\PracticeInitAndRecord.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\obj\Debug\net6.0\PracticeInitAndRecord.AssemblyInfoInputs.cache
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\obj\Debug\net6.0\PracticeInitAndRecord.AssemblyInfo.cs
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\obj\Debug\net6.0\PracticeInitAndRecord.csproj.CoreCompileInputs.cache
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\obj\Debug\net6.0\PracticeInitAndRecord.dll
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\obj\Debug\net6.0\refint\PracticeInitAndRecord.dll
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\obj\Debug\net6.0\PracticeInitAndRecord.pdb
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\obj\Debug\net6.0\PracticeInitAndRecord.genruntimeconfig.cache
+C:\Users\Cristi-PC\source\repos\Learning\PracticeInitAndRecord\obj\Debug\net6.0\ref\PracticeInitAndRecord.dll

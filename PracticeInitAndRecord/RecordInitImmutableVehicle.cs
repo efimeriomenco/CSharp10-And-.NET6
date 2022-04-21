@@ -1,6 +1,6 @@
 ﻿namespace PracticeInitAndRecord
 {
-    public record RecordInitImmutableVehicle
+    public record RecordInitImmutableVehicle()
     {
         public int Wheels { get; init; }
         public string? Color { get; init; }

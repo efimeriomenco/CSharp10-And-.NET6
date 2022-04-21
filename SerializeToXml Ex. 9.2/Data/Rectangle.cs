@@ -9,11 +9,10 @@ namespace SerializeToXml_Ex._9._2.Data
     [Serializable]
     public class Rectangle : Shape
     {
-        public override string Colour { get; set; }
-       
-        public override double? Height { get; set; }
+        public  double Height { get; set; }
      
-        public override double? Width { get; set; }
+        public  double Width { get; set; }
 
+        public override double Area => Width * Height;
     }
 }

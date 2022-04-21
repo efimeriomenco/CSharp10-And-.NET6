@@ -1,8 +1,8 @@
 ﻿
 
-Rectangle r = new(height: 3, width: 4);
+Rectangle r = new(height: 3, width: 4.5);
 
-r.Height = 10;
+//r.Height = 10;
 Console.WriteLine(r.Area);
 
 WriteLine($"Rectangle H: {r.Height}, W: {r.Width}, Area: {r.Area}");

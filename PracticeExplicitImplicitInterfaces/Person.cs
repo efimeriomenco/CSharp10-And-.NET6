@@ -10,11 +10,11 @@ namespace PracticeExplicitImplicitInterfaces
     {
         public void Lose() // implicit implementation
         {
-            // implement losing a key
+            Console.WriteLine("Implicit");
         }
         void IGamePlayer.Lose() // explicit implementation
         {
-            // implement losing a game
+            Console.WriteLine("Explicit");
         }
     }
 

@@ -1,0 +1,15 @@
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\bin\Debug\net6.0\PracticeStruct.exe
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\bin\Debug\net6.0\PracticeStruct.deps.json
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\bin\Debug\net6.0\PracticeStruct.runtimeconfig.json
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\bin\Debug\net6.0\PracticeStruct.dll
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\bin\Debug\net6.0\PracticeStruct.pdb
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\obj\Debug\net6.0\PracticeStruct.csproj.AssemblyReference.cache
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\obj\Debug\net6.0\PracticeStruct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\obj\Debug\net6.0\PracticeStruct.AssemblyInfoInputs.cache
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\obj\Debug\net6.0\PracticeStruct.AssemblyInfo.cs
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\obj\Debug\net6.0\PracticeStruct.csproj.CoreCompileInputs.cache
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\obj\Debug\net6.0\PracticeStruct.dll
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\obj\Debug\net6.0\refint\PracticeStruct.dll
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\obj\Debug\net6.0\PracticeStruct.pdb
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\obj\Debug\net6.0\PracticeStruct.genruntimeconfig.cache
+C:\Users\Cristi-PC\source\repos\Learning\PracticeStruct\obj\Debug\net6.0\ref\PracticeStruct.dll

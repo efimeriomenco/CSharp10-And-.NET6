@@ -5,14 +5,7 @@
     [Serializable]
     public abstract class Shape
     {
-        public abstract string Colour { get; set; }
-       
-        public virtual double? Radius { get; set; }
-       
-        public virtual double? Width { get; set; }
-       
-        public virtual double? Height { get; set; }
-
-
+        public string Colour { get; set; }
+        public abstract double Area { get;  }
     }
 }

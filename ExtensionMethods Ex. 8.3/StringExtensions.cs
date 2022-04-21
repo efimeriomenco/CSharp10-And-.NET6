@@ -7,54 +7,61 @@ namespace ExtensionMethods_Ex._8._3
         public StringBuilder ToText(long number)
         {
             
-           /* builder.Append(" este");
-            builder.Append(" un");
-            builder.Append(" developer");
-            var result = builder.ToString();*/
             if (number == 0)
                 return new StringBuilder("zero");
 
             if (number < 0)
-                return new StringBuilder("minus " + ToText(Math.Abs(number)));
+            {
+                var builder = new StringBuilder("minus ");
+                builder.Append(ToText(Math.Abs(number)));
+                return builder;
+            }
 
             var words = new StringBuilder("");
             if ((number / 1000000000000000000) > 0)
             {
-                words.Append(ToText(number / 1000000000000000000) + " quintillion "); 
+                words.Append(ToText(number / 1000000000000000000));
+                words.Append(" quintillion "); 
                 number %= 1000000000000000000;
             }
             if ((number / 1000000000000000) > 0)
             {
-                words.Append(ToText(number / 1000000000000000) + " quadrillion ");
+                words.Append(ToText(number / 1000000000000000));
+                words.Append(" quadrillion ");
                 number %= 1000000000000000;
             }
             if ((number / 1000000000000) > 0)
             {
-                words.Append(ToText(number / 1000000000000) + "trillion ");
+                words.Append(ToText(number / 1000000000000));
+                words.Append(" trillion ");
                 number %= 1000000000000;
             }
             if ((number / 1000000000) > 0)
             {
-                words.Append(ToText(number / 1000000000) + " billion ");
+                words.Append(ToText(number / 1000000000));
+                words.Append(" billion ");
                 number %= 1000000000;
             }
 
             if ((number / 1000000) > 0)
             {
-                words.Append(ToText(number / 1000000) + " million ");
+                words.Append(ToText(number / 1000000));
+                words.Append(" million ");
                 number %= 1000000;
             }
 
             if ((number / 1000) > 0)
             {
 
-                words.Append(ToText(number / 1000) + " thousand ");
+                words.Append(ToText(number / 1000));
+                words.Append(" thousand ");
                 number %= 1000;
             }
 
             if ((number / 100) > 0)
             {
-                words.Append(ToText(number / 100) + " hundred ");
+                words.Append(ToText(number / 100));
+                words.Append(" hundred ");
                 number %= 100;
             }
 
@@ -81,12 +88,13 @@ namespace ExtensionMethods_Ex._8._3
     }
     public static class StringExtension
     {
-        public static StringBuilder ToText(this long num)
+        public static string ToText(this long num)
         {
             var numberText = new NumberToText();
-            return numberText.ToText(num);
+            return numberText.ToText(num).ToString();
         }
     }
 
+   
 
 }
