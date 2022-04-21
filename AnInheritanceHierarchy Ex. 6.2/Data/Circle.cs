@@ -8,18 +8,13 @@ namespace PracticeAnInheritanceHierarchy
 {
     public class Circle : Shape
     {
-        public new double Height { get; set; }
-        public new double Width { get; set; }
-        public new double Area { get; set; }
+        public override double Area => Math.PI * Math.Pow(Radius, 2);
         public double Radius { get; set; }
         public Circle(double radius)
         {
             Radius = radius;
             Height = radius * 2;
             Width = radius * 2;
-            Area = Math.PI * Math.Pow(radius, 2);
-
         }
-
     }
 }

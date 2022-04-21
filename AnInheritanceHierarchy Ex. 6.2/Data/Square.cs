@@ -8,15 +8,12 @@ namespace PracticeAnInheritanceHierarchy
 {
     internal class Square : Shape
     {
-        public new int Height { get; set; }
-        public new int Width { get; set; }
-        public new int Area { get; set; }
+        public override double Area => Height * Width;
 
-        public Square(int v)
+        public Square(int length)
         {
-            Height = v;
-            Width = v;
-            Area = Height * Width;
+            Height = length;
+            Width = length;
         }
 
     }

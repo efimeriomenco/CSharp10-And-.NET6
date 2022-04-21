@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace PracticeAnInheritanceHierarchy
 {
-    public class Shape
+    public abstract class Shape
     {
-        public int Height { get; set; }
-        public int Width { get; set; }
-        public int Area { get; set; }
+        public double Height { get; set; }
+        public double Width { get; set; }
+        public abstract double Area { get; }
     }
 }

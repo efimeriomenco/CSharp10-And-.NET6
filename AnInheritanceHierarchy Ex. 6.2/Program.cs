@@ -1,6 +1,10 @@
 ﻿
 
-Rectangle r = new(height: 3, width: 4.5);
+Rectangle r = new(height: 3, width: 4);
+
+r.Height = 10;
+Console.WriteLine(r.Area);
+
 WriteLine($"Rectangle H: {r.Height}, W: {r.Width}, Area: {r.Area}");
 Square s = new(5);
 WriteLine($"Square H: {s.Height}, W: {s.Width}, Area: {s.Area}");

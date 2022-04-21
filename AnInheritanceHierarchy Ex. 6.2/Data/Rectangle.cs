@@ -9,16 +9,12 @@ namespace PracticeAnInheritanceHierarchy
    
     public class Rectangle : Shape
     {
-        public new int Height { get; set; }
-        public new double Width { get; set; }
-        public new double Area { get; set; }
+        public override double Area => Width * Height;
 
-        public Rectangle(int height, double width)
+        public Rectangle(double height, double width)
         {
             Height = height;
             Width = width;
-            Area = Height * Width;
         }
-
     }
 }
