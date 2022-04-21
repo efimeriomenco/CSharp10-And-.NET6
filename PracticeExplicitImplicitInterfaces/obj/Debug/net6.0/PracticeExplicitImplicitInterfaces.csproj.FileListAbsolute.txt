@@ -1,0 +1,15 @@
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\bin\Debug\net6.0\PracticeExplicitImplicitInterfaces.exe
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\bin\Debug\net6.0\PracticeExplicitImplicitInterfaces.deps.json
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\bin\Debug\net6.0\PracticeExplicitImplicitInterfaces.runtimeconfig.json
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\bin\Debug\net6.0\PracticeExplicitImplicitInterfaces.dll
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\bin\Debug\net6.0\PracticeExplicitImplicitInterfaces.pdb
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\obj\Debug\net6.0\PracticeExplicitImplicitInterfaces.csproj.AssemblyReference.cache
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\obj\Debug\net6.0\PracticeExplicitImplicitInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\obj\Debug\net6.0\PracticeExplicitImplicitInterfaces.AssemblyInfoInputs.cache
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\obj\Debug\net6.0\PracticeExplicitImplicitInterfaces.AssemblyInfo.cs
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\obj\Debug\net6.0\PracticeExplicitImplicitInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\obj\Debug\net6.0\PracticeExplicitImplicitInterfaces.dll
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\obj\Debug\net6.0\refint\PracticeExplicitImplicitInterfaces.dll
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\obj\Debug\net6.0\PracticeExplicitImplicitInterfaces.pdb
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\obj\Debug\net6.0\PracticeExplicitImplicitInterfaces.genruntimeconfig.cache
+C:\Users\Cristi-PC\source\repos\Learning\PracticeExplicitImplicitInterfaces\obj\Debug\net6.0\ref\PracticeExplicitImplicitInterfaces.dll
